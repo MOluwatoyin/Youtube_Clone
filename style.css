@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    /* background-color: black; */
+    /* overflow: hidden; */
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+
+}
+nav{
+    margin: 0;
+    width:100vw;
+    /* height:5vh; */
+    background-color:red;
+    padding:0 30px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    align-items: center;
+    top:0;
+    
+}
+a{
+    text-decoration: none;
+   
+}
+#logo{
+    display: flex;
+}
+#facebook--co{
+    display: flex;
+    margin-left:20px;
+}
+
+/* icons--to--be--resized--and--color--changed */
+.resized--logos{
+    font-size: 200%;
+}
+.icons{
+    color:black;
+}
+
+
+.fa-youtube{
+    color:red;
+    
+}
+.you--name{
+    font-weight: 500px;
+    margin-left:2px;
+    color:black;
+}
+sub{
+    color:gray
+}
+
+#search{
+display:flex;
+align-items: center;
+}
+input{
+    border:none;
+    border-right:1px solid lightgray;
+    padding:10px;
+    width:400px;
+}
+input:focus{
+    border:none;
+    outline: none;
+}
+#search--and--icon{
+    border:1px solid lightgray;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    
+}
+.fa-search{
+    padding-left:12px;
+}
+.fa-microphone{
+    text-align: center; 
+}
+ #microphone{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-color: #f9f9f9;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#nav--icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 10px;
+}
+.each--icon{
+    margin:15px;
+      
+}
+#nav--icon p{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color:white
+    
+    
+    
+}
+/* main--part */
+
+main{
+    display: flex;
+    /* overflow:sroll; */
+}
+#sidebar{
+background-color: blueviolet;
+/* width:40vh; */
+height:100vh;
+overflow-y:scroll;
+/* position: static; */
+/* float:left; */
+/* z-index:1;
+top:0; */
+/* flex: 0.2 */
+min-width: 250px
+}
+.sidebar--part--division a{
+    display: flex;
+    align-items:center;
+    text-align:center;
+    margin:0px 20px;
+    text-decoration: none;
+    color:black;
+    padding:0px 20px;
+}
+.sidebar--part--division a p{
+    padding:0px 0px 0px 20px;
+    font-size:100%
+}
+.sidebar--part--division a:hover{
+    background-color: lightgray;
+    font-weight: bold;
+}
+.sidebar--part--division a i{
+    font-size: 150%;
+}
+.sidebar--part--division a img{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+.divisions--in--side div:last-child{
+    border-bottom:1px solid lightgray;
+}
+.divisions--in--side h1{
+    font-size:100%;
+    padding:8px 40px;
+    color:gray
+}
+
+.final--youtube--sidebar, .final--youtube--sidebar2{
+    margin:0px 20px;
+    text-decoration: none;
+    color:black;
+    padding:0px 20px;
+}
+.final--youtube--sidebar a, .final--youtube--sidebar2 a{
+    color:gray;
+    padding-left:5px;
+}
+.final--youtube--sidebar,.final--youtube--sidebar2{
+    margin-top:10px;
+}
+.final--youtube--sidebar2{
+    margin-bottom: 50px;
+}
+#mainpart{
+    /* position: relative; */
+    /* top: 300px; */
+    margin:20px;
+    /* flex: 0.8 */
+}
+
+.mainpart--button--part{
+   display: flex;
+   flex-wrap: wrap;
+}
+.mainpart--button--part button{
+padding:20px;
+background-color: white;
+border: 1px solid grey;
+margin-right: 20px;
+width:100%;
+}
